@@ -5,8 +5,11 @@ pip install django
 #create management project
 django-admin startproject portfolio .
 
+
 python manage.py runserver
 # should get url link where "The install worked successfully! Congratulations!"
+
+python manage.py startapp projects
 
 python manage.py startapp blog
 
